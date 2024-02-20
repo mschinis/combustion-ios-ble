@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "combustion-ios-ble",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
+        .macOS(.10_14)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
